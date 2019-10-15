@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"outDir": "./built",
+		"allowJs": true,
+		"target": "es2018",
+		"strict": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"lib": [ "es2018" ],
+		"noEmitOnError": true,
+		"rootDir": "./",
+		"incremental": true,
+		"esModuleInterop": true
+	},
+	"include": [ "./bin/**/*.ts", "./bin/**/*.js", "./lib/**/*.ts", "./lib/**/*.js" ]
+}
+
